@@ -1,28 +1,5 @@
 # Sauce Scale
 
-Rate fashion items on cultural sauce and niche-ness, powered by Claude Sonnet.
-
-## Setup
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Add your Anthropic API key to `.env.local`:
-   ```
-   ANTHROPIC_API_KEY=sk-ant-your-key-here
-   ```
-
-3. Run the dev server:
-   ```bash
-   npm run dev
-   ```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## How it works
-
 - Paste a fashion item URL (SSENSE, Grailed, Farfetch, END., Dover Street Market, etc.)
 - The backend scrapes Open Graph metadata + common HTML selectors
 - Claude Sonnet 4.5 scores the item on Sauce Up, Sauce Down, and Niche
